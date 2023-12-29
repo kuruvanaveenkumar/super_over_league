@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  height: 50vh;
+}
+@media screen and (max-width: 576px) {
+  .bg-container {
+    height: 100vh;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.main-heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.image-size {
+  height: 100px;
+  width: 100px;
+}
